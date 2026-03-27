@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Yarndeck",
+  "name": "A platform for sharing human stories & ideas.",
   "icons": [
     {
       "src": "favicon.ico",
