@@ -1,0 +1,154 @@
+body {
+  font-family: "Roboto", sans-serif !important;
+}
+
+.navbar-brand {
+  font-size: 30px !important;
+  font-weight: 700 !important;
+
+  /* Media query for phone */
+  @media only screen and (max-width: 600px) {
+    font-size: 50px !important;
+  }
+
+  /* Media query for tablets */
+  @media only screen and (min-width: 600px) {
+    font-size: 45px !important;
+  }
+
+  /* Media query for laptop */
+  @media only screen and (min-width: 992px) {
+    font-size: 30px !important;
+  }
+}
+
+.nav-link {
+  font-size: 20px !important;
+  font-weight: 500 !important;
+
+  /* Media query for phone */
+  @media only screen and (max-width: 600px) {
+    font-size: 45px !important;
+  }
+
+  /* Media query for tablets */
+  @media only screen and (min-width: 600px) {
+    font-size: 45px !important;
+  }
+
+  /* Media query for laptop */
+  @media only screen and (min-width: 992px) {
+    font-size: 20px !important;
+  }
+}
+
+.main-image {
+  height: 80%;
+  width: 80%;
+  display: flex;
+  margin: 40px auto;
+
+  /* Media query for phone */
+  @media only screen and (max-width: 600px) {
+    height: 60%;
+    width: 80%;
+    display: flex;
+    margin: 50px auto;
+  }
+
+  /* Media query for tablets */
+  @media only screen and (min-width: 600px) {
+    height: 80%;
+    width: 80%;
+  }
+
+  /* Media query for laptop */
+  @media only screen and (min-width: 992px) {
+    height: 80%;
+    width: 80%;
+  }
+}
+
+.main-heading {
+  font-size: 80px !important;
+  font-weight: 700 !important;
+
+  /* Media query for phone */
+  @media only screen and (max-width: 600px) {
+    font-size: 55px !important;
+    font-weight: 700 !important;
+    text-align: center;
+  }
+
+  /* Media query for tablets */
+  @media only screen and (min-width: 600px) {
+    font-size: 90px !important;
+  }
+
+  /* Media query for laptop */
+  @media only screen and (min-width: 992px) {
+    font-size: 80px !important;
+  }
+}
+
+.main-paragragh {
+  font-size: 30px !important;
+  font-weight: 500 !important;
+
+  /* Media query for phone */
+  @media only screen and (max-width: 600px) {
+    font-size: 25px !important;
+    font-weight: 500 !important;
+    text-align: center;
+    padding: 30px;
+  }
+
+  /* Media query for tablets */
+  @media only screen and (min-width: 600px) {
+    font-size: 50px !important;
+  }
+
+  /* Media query for laptop */
+  @media only screen and (min-width: 992px) {
+    font-size: 30px !important;
+  }
+}
+
+/* Cards */
+.card-title {
+  font-size: 20px !important;
+
+  /* Media query for phone */
+  @media only screen and (max-width: 600px) {
+    font-size: 30px !important;
+  }
+
+  /* Media query for tablets */
+  @media only screen and (min-width: 600px) {
+    font-size: 40px !important;
+  }
+
+  /* Media query for laptop */
+  @media only screen and (min-width: 992px) {
+    font-size: 25px !important;
+  }
+}
+
+.card-text {
+  font-size: 16px !important;
+
+  /* Media query for phone */
+  @media only screen and (max-width: 600px) {
+    font-size: 20px !important;
+  }
+
+  /* Media query for tablets */
+  @media only screen and (min-width: 600px) {
+    font-size: 20px !important;
+  }
+
+  /* Media query for laptop */
+  @media only screen and (min-width: 992px) {
+    font-size: 16px !important;
+  }
+}
